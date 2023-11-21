@@ -8,7 +8,7 @@
     <title>ChatBot UI</title>
 </head>
 
-<body>
+<body class="kites_chatbot_body">
     <section class="kites_chatbot_container">
         <!-- Chat Header -->
         <header class="kites_chat_header_container">
@@ -100,10 +100,10 @@
         <!-- Chat Box Footer -->
         <footer class="kites_chat_footer">
             <section class="kites_chat_delivery_container">
-                <div class="kites_add_new_container">
+                <div id="kites_add_new" class="kites_add_new_container">
                     <img class="kites_add_new_image" src="assets/images/add_new.svg" alt="">
                 </div>
-                <div class="kites_gallery_container">
+                <div id="kites_gallery" class="kites_gallery_container">
                     <img class="kites_gallery_image" src="assets/images/gallery.svg" alt="">
                 </div>
                 <div class="kites_typed_text_container">
@@ -112,13 +112,16 @@
                         <img class="kites_large_micorphone_image" src="assets/images/large_microphone.svg" alt="">
                     </div>
                 </div>
-                <div class="kites_send_container">
+                <div id="kites_send" class="kites_send_container">
                     <img class="kites_send_image" src="assets/images/send.svg" alt="">
                 </div>
             </section>
         </footer>
         <!-- End Chat Box Footer -->
     </section>
+    <div id="kites_open_chat" class="kites_open_chat_container">
+        <img class="kites_open_chat_image" src="assets/images/open_chat.svg" alt="">
+    </div>
 </body>
 
 </html>
